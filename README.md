@@ -5,7 +5,7 @@ Images are sorted as per the quantity of dark and non-dark pixels in image.
 
 + Put your wallpapers in wallpapers/download/ directiory.
 
-#####Run
+##### Run
 python3 image_classifer.py
 
 + walit is shell script that can be used to set wallpaper.
@@ -13,7 +13,7 @@ python3 image_classifer.py
 + learn more about date from "man date"
 + walit uses pywal for desktop wallpaper setup.
 + 'wal -i' can be replaced by other command.
-#####Run
+##### Run
 ./walit
 
 + plot.py can be used to visualize distribution of pixels.
