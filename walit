@@ -1,0 +1,20 @@
+#!/bin/bash
+
+hour=$(date +'%H')
+path=/home/cashew/projects/temp-pr/wallpapers/
+
+if [ $hour -lt 6 ]; then
+wal -i $(find /home/cashew/projects/temp-pr/wallpapers/"4"/ -type f | shuf -n1)
+elif [ $hour -lt 10 ]; then
+wal -i $(find /home/cashew/projects/temp-pr/wallpapers/"2" /-type f | shuf -n1)
+elif [ $hour -lt 14 ]; then
+wal -i $(find /home/cashew/projects/temp-pr/wallpapers/"1"/ -type f | shuf -n1)
+elif [ $hour -lt 16 ]; then
+wal -i $(find /home/cashew/projects/temp-pr/wallpapers/"2"/ -type f | shuf -n1)
+elif [ $hour -lt 18 ]; then
+wal -i $(find /home/cashew/projects/temp-pr/wallpapers/"2"/ -type f | shuf -n1)
+elif [ $hour -lt 22 ]; then
+wal -i $(find /home/cashew/projects/temp-pr/wallpapers/"3"/ -type f | shuf -n1)
+else
+wal -i $(find /home/cashew/projects/temp-pr/wallpapers/"4"/ -type f | shuf -n1)
+fi
